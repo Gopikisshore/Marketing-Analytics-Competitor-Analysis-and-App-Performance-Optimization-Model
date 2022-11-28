@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Generated Report</title>
+	<!--<link rel="stylesheet" type="text/css" href="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\style1.css">-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}">
+<body>
+<div class="container">	
+<h1> Google Playstore Application(Key Features Extracted & Generated Word Cloud)</h1>
+<div class="c3">
+<h3>The tool perform following task</h3>
+<ul>
+<li>1.Data Visualization from Extracted Data </li>
+<li>2.Generates Word Cloud</li>
+<li>3.Using Customized Stopwords We Can Get Top Trending key Features</li></ul></div>
+<h3>Churned Data</h3>
+<!-- method to give styles for  diffrent paragraph-->
+<div class="c1"><p>Hybrid slot</p></div>
+<br>
+<div class="container">
+
+	<div class="report">
+	    <!--<img src="{{ url_for('static', filename='installs.png') }}">-->
+	    <img src="{{ url_for('static', filename='img/installs.png') }}">
+	    <!--<link href="{{ url_for('static', filename='img/installs.png') }}" rel="icon">-->
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\installs.png">-->
+		    <div class="desc">Installs</div>
+	</div>
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\rd_vs_in.png">-->
+		<img src="{{ url_for('static', filename='img/rd_vs_in.png') }}">
+		    <div class="desc">Released date Vs Installs</div>
+	</div>
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\add.png">-->
+		<img src="{{ url_for('static', filename='img/add.png') }}">
+		    <div class="desc">Is Ad supported?</div>
+	</div>
+</div>
+<br>
+<br>
+<h3> Word Cloud (from App description & Recently changes)</h3>
+<div class="container">
+
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\info_uni_wc.jpg">-->
+		<img src="{{ url_for('static', filename='img/info_uni_wc.jpg') }}">
+		    <div class="desc">Unigram Word cloud</div>
+	</div>
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\info_bi_wc.jpg">-->
+		<img src="{{ url_for('static', filename='img/info_bi_wc.jpg') }}">
+		    <div class="desc">Bigram Word cloud</div>
+	</div>
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\info_Tri_wc.jpg">-->
+		<img src="{{ url_for('static', filename='img/info_Tri_wc.jpg') }}">
+		    <div class="desc">Trigram Word cloud</div>
+	</div>
+</div>
+<!--block-->
+<div class="block">
+<h2> Word Cloud Using End User Review</h2>
+<div class="container">
+
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\re_uni_wc.jpg">-->
+		<img src="{{ url_for('static', filename='img/re_uni_wc.jpg') }}">
+		    <div class="desc">Unigram Word cloud</div>
+	</div>
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\re_bi_wc.jpg">-->
+		<img src="{{ url_for('static', filename='img/re_bi_wc.jpg') }}">
+		    <div class="desc">Bigram Word cloud</div>
+	</div>
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\re_Tri_wc.jpg">-->
+		<img src="{{ url_for('static', filename='img/re_Tri_wc.jpg') }}">
+		    <div class="desc">Trigram Word cloud</div>
+	</div>
+</div>
+<div class="block">
+                     <h2>Customize StopWords</h2>
+                     <h3>StopWords</h3>	
+                            <p> Stop words are commonly used in Text Mining and Natural Language Processing (NLP) to eliminate words that are so commonly used that they carry very little useful information.
+                      <ul>
+	                         <li>Step 1 - select which category want to remove stop words and need more information</li>
+                            <li>Step 2 - Enter customize stopwords or word that not giving useful information e.g. Unigram = is,the,where, Bigram - now render,more information  etc </li>
+                            <li> Step 3  - select how many sentence joined in ouput </li>
+                            <li>Step 4 - select No of output want to print</li>
+                       </ul></p></div>
+                       <br><br>
+<!--form-->
+<div class="f2">
+<form class="F1" action="/stopwords" method="POST">
+	<div class="u1">
+		<label>SelectCategory</label>
+		<input name="SelectCategory" required="required">
+		<select>		      
+        <option value="content">content</option>
+        <option value="DescriptionAndChanges">DescriptionAndChanges</option>
+        </select>
+	</div>
+	<div class="u1">
+		<label>StopWords</label>
+		<input type="text" name="StopWords">
+	</div>
+	<div class="u1">
+		<label>No of words</label>
+		<input name="No of words" required="required">
+		<select>  
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        </select>
+	</div>
+	<div class="u1">
+		<label>No_of_features</label>
+		<input type="number" name="No_of_features"  placeholder="upto 200features" min="1" max="199" required="required">
+	</div>
+	<div>
+<input type="Submit" name="submit" class="b1">	
+</div>
+</form>
+<br>
+<div>
+<hr><p><a href="https://innodatatics.ai/contact" target="blank">Know more Contact Us</a></p></hr>
+</div>
+</body>
+</html>

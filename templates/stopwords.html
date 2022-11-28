@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>StopWords Removed</title>
+	<!--<link rel="stylesheet" type="text/css" href="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\style1.css">-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}">
+<h1> Top features & Frequency of that features from concern keyword that you entered </h1>
+   <span class="u1">{{resultHeading}}</span>
+   <span class="u1">
+   <style>
+     table, th, td {
+        border: 1px solid;
+      }
+    </style>
+    <table>
+	<tr>
+		<th>Feature</th>
+		<th>Freq</th>
+	</tr>
+	{% for k, v in featuresToPrint.items() %}
+		<tr>
+			<td>{{ k }}</td>
+			<td>{{ v }}</td>
+		</tr>		
+	{% endfor %}
+    </table>
+    </span>
+<h2> Word Cloud Customized Stopwords Removed</h2>
+<div class="container">
+
+	<div class="report">
+		<!--<img src="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\img\re_uni_wc.jpg">-->
+		<img src="{{ url_for('static', filename='wordCloud.png') }}">
+		    <div class="desc">Word cloud</div>
+	</div>
+</div>
+</head>
+<body>
+
+</body>
+</html>

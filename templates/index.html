@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>App Feature Extraction</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<!--<link href="C:\Users\madym\Downloads\360 digi\Project\New folder\Assist App Developer - AAD\static\style.css" type="text/css" rel="stylesheet">-->
+<body>
+<div class="container">	
+<h1>Competitor Analysis and App Performance Optimization Model</h1>
+<br>
+<br>
+<br>
+<br>
+<h3>Word Cloud & Apps Key Feature Extraction</h3>
+</head>
+<!--form-->
+<div class="f2">
+<form class="index-form" action="/result" method="POST">
+	<div class="u1">
+		<label>keywords</label>
+		<input type="text" name="keywords" placeholder="Search for apps & games features" id="content" required="required">
+	</div>
+	<div class="u1">
+		<label> No_of_ReviewS</label>
+		<input type="number" name="No_of_ReviewS"  placeholder="upto 2000reviews" min="1" max="20" required="required">
+	</div>
+	<div>
+	
+		<input type="Submit" value="Report" class="b1">
+
+<h3 style="color:black;"> Created by : Gopikishore S<br>
+Contact: gkmk998@gmail.com<br></h3>	
+</div>
+</form>
+</body>
+</html>
