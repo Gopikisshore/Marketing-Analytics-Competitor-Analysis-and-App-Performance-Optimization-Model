@@ -41,13 +41,11 @@ Business owner,
 
 
 Output Screenshots
-![Screenshot (355)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
+![Screenshot (355)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(355).png)
 ![Screenshot (356)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(356).png)
-![Screenshot (357)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
-![Screenshot (358)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
-![Screenshot (359)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
-![Screenshot (360)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
-![Screenshot (361)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
-![Screenshot (362)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
-![Screenshot (363)](https://user-images.githubusercontent.com/108575678/204332354-4571103a-08e4-4769-8db1-aca883c6b40c.png)
+![Screenshot (357)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(357).png)
+![Screenshot (358)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(358).png)
+![Screenshot (361)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(361).png)
+![Screenshot (362)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(362).png)
+![Screenshot (363)](https://github.com/Gopikisshore/Marketing-Analytics-Competitor-Analysis-and-App-Performance-Optimization-Model/blob/main/Output%20Screenshots/Screenshot%20(363).png)
 
