@@ -1,0 +1,113 @@
+body{
+
+	font-family:Courier New;
+   font-weight: 400;
+   font-size: 16px;
+   width: auto;
+   height: auto;
+   background-image:linear-gradient(#9795EF,#F9C5D1);
+}
+h1{
+	text-align:center;
+	font-family:Courier New;
+}
+
+h3{
+	font-family:Courier New;
+	text-transform: uppercase;
+}
+p{
+	font-family:Courier New;
+	line-height: 1.6em;
+
+}
+.c1{
+	background-color:#A8A68E; 
+	border-left:#ED310E 5px solid;
+	padding-left:20px; 
+}
+.c2{
+	font-family:Courier New;
+	font-style:Courier New;
+	text-decoration:overline;
+	letter-spacing: 0.1em;
+	word-spacing: 0.5em;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+a:hover{
+	color:#61E20B;
+}
+a:active{
+	color:green;
+}
+a:visited{
+	color: sandybrown;
+}
+.c3{
+	border: 1px #7E8989 solid;
+	border-radius: 15px;
+	padding-left: 10px;
+
+}
+.c3{
+	list-style-image:url('images/leaf.png');
+}
+.f2{
+	border:#EE4804 3px solid ;
+	border-radius: 10px ;
+}
+.f1{
+	padding:20px;
+}
+.u1{
+	padding-bottom:8px;
+	padding-top: 10px;
+	font-family:Courier New;
+	text-transform:capitalize;
+	padding-left: 5px;
+
+}
+.f2 label {
+	display: block;
+}	
+.f2 input[type="text"]{
+	padding-left: 10px;
+	width: 50%;
+}
+.b1{
+	background-color: black;
+	color: whitesmoke;
+	padding:5px;
+	border: none;
+	margin-left:10px;
+	border-radius:3px;
+
+}
+.b1:hover{
+	background-color:E42727;
+	color:wheat;
+
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+}
+.report{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
+
+}
+.report img {
+	width: 100%;
+	height: auto;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
